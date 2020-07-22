@@ -1,0 +1,32 @@
+
+- Applications:
+	- Imperfect electrode model, bidomain problem and input/output.
+	- Should be compiled secondly, once the LibCardioXcomp library is compiled.
+	
+- LibCardioXcomp:
+	- Finite element part (solver, boundary conditions,...), ionic models.
+	- Should be compiled first to generate the library.
+	- DO NOT FORGET DO CHANGE DEPENDENCIES PATH IN THE MAKEFILE
+
+##############################################################################
+- Dependencies:
+	- SLEPC
+	- SUNDIALS
+	- LIBXFM
+	- PETSC
+	- SCALAPACK
+	- BLACS
+	- BLAS
+	- LAPACK
+	- SUPERLU
+	- MUMPS
+	- PARAMETIS
+	- METIS
+	- LM5
+	- LUA
+	- MPI
+	- X11
+	- BOOST
+	- GSL
+	- SOBOL
+##############################################################################

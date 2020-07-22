@@ -1,0 +1,11 @@
+After compilation type one of the following commands to run an example:
+
+./bidomain input/configOHaraRudy_MCs.lua input/variablesOHaraRudy.lua 0
+./bidomain input/configOHaraRudy_Axion.lua input/variablesOHaraRudy.lua 1
+
+For the first case, it will load the heretogeneity field 0 in "./hetero/".
+For the second case, it will load the heretogeneity field 1 in "./hetero/".
+
+In "./input/variablesOHaraRudy.lua", parameters of the OHara Rudy model are defined. The IKrActivation can be used to block the hERG channel and generate EADs.
+
+Outputs will be in "Umes/" and "Vm/" of this directory. 

@@ -1,0 +1,6 @@
+This project contains sources to simulate Field Potential signals obtained through a Microelectrode array device.
+
+ - Meshes directory contains two finite element meshes of MEAs.
+ - Sources directory contains the code.
+ 
+ - rules.mk and config.mk are used for the compilation (in Sources/LibCardioXcomp/ and Application/bidomain/). DO NOT FORGET TO CHANGE DEPENDENCIES PATHS.
