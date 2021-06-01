@@ -1,3 +1,5 @@
+All Rights Reserved
+
 This project contains sources to simulate Field Potential signals obtained through a Microelectrode array device.
 
  - Meshes directory contains two finite element meshes of MEAs.
